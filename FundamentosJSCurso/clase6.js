@@ -9,7 +9,7 @@ var dario = {
   edad: 25
 }
 
-function imprimirNombreEnMayusculas(persona) {
+export function imprimirNombreEnMayusculas(persona) {
   //var nombre = persona.nombre
   var { nombre } = persona
   console.log(nombre.toUpperCase())
